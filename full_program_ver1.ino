@@ -11,11 +11,11 @@ void sw_polarity()
 {
 
  //positive polarity
-	  digitalWrite(elm11, HIGH);
-  	digitalWrite(elm12, LOW);
-    
+    digitalWrite(elm11, HIGH);
+    digitalWrite(elm12, LOW);
+	    
     digitalWrite(elm21, HIGH);
-  	digitalWrite(elm22, LOW);
+    digitalWrite(elm22, LOW);
     
     delay(del);
   
